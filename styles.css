@@ -26,20 +26,19 @@ a {
   color: #39add1;
   font-weight: 700;
   }
-  a:hover {
+
+  a:hover,
+  a:hover svg path{
     color: #111;
+    fill: #111;
   }
 
-a svg .menu-icon {
+a,
+a svg path {
   -webkit-transition: .4s ease-in-out;
   -o-transition: .4s ease-in-out;
   transition: .4s ease-in-out;
 }
-
-  a svg:hover .menu-icon {
-    fill: #111;
-  }
-
 
 
 header {
